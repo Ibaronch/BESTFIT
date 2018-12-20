@@ -1,0 +1,378 @@
+    ID Description ("*" indicates origin of filter shape is unknown)    NP
+------------------------------------------------------------------------------
+  0001 Koo-Kron U+ filter (Koo's thesis)                                13 *
+  0002 Koo-Kron J+ filter (Koo's thesis)                                23 *
+  0003 Koo-Kron F+ filter (Koo's thesis)                                25 *
+  0004 Koo-Kron N+ filter (Koo's thesis)                                28 *
+  0005 Koo-Kron R band (=127+RG610, data from Koo, Durham)              15 *
+  0006 Couch and Newell (80) BJ (photographic) filter                   43 *
+  0007 Couch and Newell (80) RF (photographic) filter                   23 *
+  0008 Koo-Kron U+ filter (Bruzual's thesis)                            13 *
+  0009 Koo-Kron J+ filter (Bruzual's thesis)                            25 *
+  0010 Koo-Kron F+ filter (Bruzual's thesis)                            25 *
+  0011 Koo-Kron N+ filter (Bruzual's thesis)                            23 *
+  0012 Buser's U filter                                                 24 *
+  0013 Buser's B2 filter                                                40 *
+  0014 Buser's B3 filter                                                40 *
+  0015 Buser's V filter                                                 54 *
+  0016 Matthews and Sandage U filter                                    13 *
+  0017 Matthews and Sandage B filter                                    22 *
+  0018 Matthews and Sandage V filter                                    25 *
+  0019 Sandage and Smith B filter                                       43 *
+  0020 Sandage and Smith V filter                                       38 *
+  0021 Sandage and Smith R filter                                       43 *
+  0022 ST-UV14 filter                                                   33 *
+  0023 ST-UV17 filter                                                   42 *
+  0024 ST-UV22 filter                                                   53 *
+  0025 ST-UV27 filter                                                   64 *
+  0026 OAO-UV1 filter                                                   33 *
+  0027 OAO-UV2 filter                                                   47 *
+  0028 OAO-UV3 filter                                                   59 *
+  0029 OAO-UV4 filter                                                   68 *
+  0030 OAO-UV5 filter                                                   58 *
+  0031 OAO-UV6 filter                                                   70 *
+  0032 Johnson's R filter                                               23 *
+  0033 Johnson's I filter                                               26 *
+  0034 Johnson's J filter                                               31 *
+  0035 Johnson's K filter                                               17 *
+  0036 Johnson's L filter                                               14 *
+  0037 Butcher's r filter                                               51 *
+  0038 Butcher's i filter                                               36 *
+  0039 Butcher-Oemler R filter (10/75 1978, data from Koo, Durham)      31 *
+  0040 Butcher-Oemler R filter ( 5/76 1978, data from Koo, Durham)      31 *
+  0041 Bessell u filter                                                 23 *
+  0042 Bessell g filter                                                 46 *
+  0043 Bessell r filter                                                 22 *
+  0044 UKIRT H FILTER (Leiden, 1983)                                    33 *
+  0045 R. S. Ellis U(PE) filter                                         53 *
+  0046 R. S. Ellis J filter                                            105 *
+  0047 R. S. Ellis R filter                                             57 *
+  0048 R. S. Ellis N filter                                            111 *
+  0049 C. MacKay and P. Hall KG3 filter (Cambridge)                    189 *
+  0050 C. MacKay and P. Hall I filter (Cambridge)                      126 *
+  0051 Gunn g filter + four-shooter Ti CCD + Palomar 200" atmospher     29 *
+  0052 Gunn r filter + four-shooter Ti CCD + Palomar 200" atmospher     47 *
+  0053 Gunn i filter + four-shooter Ti CCD + Palomar 200" atmospher     75 *
+  0054 Gunn z filter + four-shooter Ti CCD + Palomar 200" atmospher     81 *
+  0055 IR J filter + Palomar 200 IR detectors + atmosphere              21 *
+  0056 IR H filter + Palomar 200 IR detectors + atmosphere              27 *
+  0057 IR K filter + Palomar 200 IR detectors + atmosphere              33 *
+  0058 NOAO CTIO 4m ISPI J#186                                          46
+  0059 NOAO CTIO 4m ISPI H#187                                          76
+  0060 NOAO CTIO 4m ISPI K'#188                                        639
+  0061 A. Tyson J filter                                                40 *
+  0062 A. Tyson R filter                                                41 *
+  0063 A. Tyson I filter                                                65 *
+  0064 ANS 1550 Wide Filter (J. Koorneef)                                4 *
+  0065 ANS 1800 Filter (J. Koorneef)                                    18 *
+  0066 ANS 2200 Filter (J. Koorneef)                                     4 *
+  0067 ANS 2500 Filter (J. Koorneef)                                     4 *
+  0068 ANS 3300 Filter (J. Koorneef)                                    23 *
+  0069 Approximate U band for Lilly and Cowie                           13 *
+  0070 Approximate I band for Lilly and Cowie                           61 *
+  0071 IRAS  12 micron, Neugebauer etal 1984,ApJL,278,L1                35 *
+  0072 IRAS  25 micron, Neugebauer etal 1984,ApJL,278,L1                28 *
+  0073 IRAS  60 micron, Neugebauer etal 1984,ApJL,278,L1                46 *
+  0074 IRAS 100 micron, Neugebauer etal 1984,ApJL,278,L1                32 *
+  0075 H filter Bessell and Brett PASP 100, 1134, 1988                  20 *
+  0076 J filter Bessell and Brett PASP 100, 1134, 1988                  21 *
+  0077 K filter Bessell and Brett PASP 100, 1134, 1988                  25 *
+  0078 L (3.5 microns) filter Bessell and Brett PASP 100, 1134, 198     21 *
+  0079 L' (3.8 microns) filter Bessell and Brett PASP 100, 1134, 19     20 *
+  0080 M filter Bessell and Brett PASP 100, 1134, 1988                  19 *
+  0081 IRAM MAMBO-1 1.2 mm, 37 channel (winter 99/00 -today)           247
+  0082 IRAM MAMBO-2 1.2 mm,117 channel                                 221
+  0083 g Gunn (original)                                                17 *
+  0084 r Gunn (original)                                                22 *
+  0085 i Gunn (original)                                                27 *
+  0086 z (original)                                                     22 *
+  0087 z + RCA                                                          22 *
+  0088 CCD RCA ESO (JPP reference)                                      15 *
+  0089 CCD RCA CAHA (Manual d'utilisateurs)                              8 *
+  0090 B CAHA  (original manuel)                                        16 *
+  0091 B Bessell                                                        24 *
+  0092 V Bessell                                                        18 *
+  0093 R Bessell                                                        22 *
+  0094 I Bessell                                                        12 *
+  0095 K Prime CFHT Redeye                                             110 *
+  0096 CCD RCA2 CFHT (Manuel utilisateurs)                              24 *
+  0097 Bj TYSON (orig. filter AT, private com.)                         22 *
+  0098 CCD TEK#25  (ESO, Manuel Utilisateurs)                           17 *
+  0099 CCD LORAL#34  (ESO, Manuel Utilisateurs)                         17 *
+  0100 CCD SAIC#1    (CFH, Manuel Utilisateurs)                         15 *
+  0101 CCD Lick2 CFHT   (CFH, Manuel Utilisateurs)                       8 *
+  0102 ESO NTT SUSI B Bessell#639                                      200 *
+  0103 ESO NTT SUSI V Bessell#641                                      200 *
+  0104 ESO NTT SUSI R Bessell#642                                      200 *
+  0105 ESO NTT EMMI V#606                                              200 *
+  0106 B#4402  CFHT                                                     23 *
+  0107 R#4609  CFHT                                                     18 *
+  0108 B #1412  CFHT   FOCAM                                           148 *
+  0109 B #1414  CFHT  B Tyson selon JB                                  24 *
+  0110 V #1504  CFHT                                                   113 *
+  0111 V #1510  CFHT  FOCAM                                            165 *
+  0112 R #1611  CFHT                                                    29 *
+  0113 I #1808  CFHT   FOCAM                                            65 *
+  0114 I #1809  CFHT  FOCAM                                             65 *
+  0115 Thomson THX 31156  CCD#17  ESO                                   17 *
+  0116 Thomson THX 31156  CCD#18  ESO                                   17 *
+  0117 R#585 Bessell  ESO                                               30 *
+  0118 K #6  UKIRT                                                      36 *
+  0119 Passe-tout                                                       41 *
+  0120 F555W + WFPC2 normalized                                         28 *
+  0121 F814W + WFPC2 normalized                                        142 *
+  0122 F300W + WFPC2 normalized                                        156 *
+  0123 F450W + WFPC2 normalized                                        154 *
+  0124 F606W + WFPC2 normalized                                        145 *
+  0125 F702W + WFPC2 normalized                                         28 *
+  0126 F675W + WFPC2 normalized                                         18 *
+  0127 F336W + WFPC2 normalized                                         17 *
+  0128 ESO NTT 3.6m SOFI Js                                            262
+  0129 ESO NTT 3.6m SOFI J                                             959
+  0130 ESO NTT 3.6m SOFI H                                             493
+  0131 ESO NTT 3.6m SOFI Ks                                            365
+  0132 KPNO IRIM 2.12 Filter                                            23 *
+  0133 KPNO IRIM 2.14 Filter                                            26 *
+  0134 KPNO IRIM 2.16 Filter                                            29 *
+  0135 KPNO IRIM H Filter                                               43 *
+  0136 KPNO IRIM J Filter                                               38 *
+  0137 KPNO IRIM K Filter                                               62 *
+  0138 KPNO IRIM K' Filter                                              46 *
+  0139 VLT Test Camera Detector's Quantum Efficiency                    19 *
+  0140 B-band filter of the VLT Test Camera                             21 *
+  0141 V-band filter of the VLT Test Camera                             24 *
+  0142 R-band filter of the VLT Test Camera                             24 *
+  0143 I-band filter of the VLT Test Camera                             23 *
+  0144 SUSI2's CCDs Quantum Efficiency                                   8 *
+  0145 SUSI Bessell U #810                                             200 *
+  0146 SUSI Bessell B #811                                             196 *
+  0147 SUSI Bessell V #812                                             200 *
+  0148 SUSI Bessell R #813                                             200 *
+  0149 SUSI Bessell I #814                                             200 *
+  0150 FORS Standard U (including instrument + CCD)                     79 *
+  0151 FORS Standard Bessell B (including instrument + CCD)             77 *
+  0152 FORS Standard Bessell V (including instrument + CCD)             79 *
+  0153 FORS Bessell R (including instrument + CCD)                      79 *
+  0154 FORS Bessell I (including instrument + CCD)                      79 *
+  0155 FORS Gunn G (including instrument + CCD)                         79 *
+  0156 ESO 2.2m WFI U#841+CCD57+wfi_2p2_optics (U/38 AKA U38)          106
+  0157 ESO 2.2m WFI B#842+CCD57 (old B/99, for new see B/123)          101 *
+  0158 ESO 2.2m WFI V#843+CCD57+wfi_2p2_optics (V/89)                  249
+  0159 ESO 2.2m WFI Rc#844+CCD57+wfi_2p2_optics (Rc/162)               466
+  0160 ESO 2.2m WFI Ic#845+CCD57+wfi_2p2_optics (Ic/lwp)               512
+  0161 ESO 2.2m WFI Z#846+CCD57+wfi_2p2_optics (Z+/61)                 382
+  0162 ESO 2.2m WFI U#877+CCD57+wfi_2p2_optics (U/50 AKA U35)          200
+  0163 ESO 2.2m WFI B#878+CCD57+wfi_2p2_optics (B/123)                 602
+  0164 SDSS u                                                           47
+  0165 SDSS g                                                           89
+  0166 SDSS r                                                           75
+  0167 SDSS i                                                           89
+  0168 SDSS z                                                          141
+  0169 ESO VST OmegaCAM u                                               39
+  0170 ESO VST OmegaCAM g                                               83
+  0171 ESO VST OmegaCAM r                                               83
+  0172 ESO VST OmegaCAM i                                               93
+  0173 ESO VST OmegaCAM z                                               76
+  0174 CFHT CFH12k B (Mould)                                            63
+  0175 CFHT CFH12k V (Mould)                                           147
+  0176 CFHT CFH12k R (Mould)                                            87
+  0177 CFHT CFH12k I (Mould)                                           130
+  0178 CFHT CFH12k Z (Prime)                                           246
+  0179 JCMT SCUBA 450 micron                                          1299
+  0180 JCMT SCUBA 850 micron                                           822
+  0181 AzTEC 1.1 mm                                                    275
+  0182 Infamous 2.2m UH8K B filter + loral3 + MK atmosphere             61 *
+  0183 2.2m UH8K V filter + loral 3 + atmosphere                        64 *
+  0184 2.2m UH8K I filter + MK atmosphere                              126 *
+  0185 KPNO B, from AAT Users Manual                                    20 *
+  0186 H+K filter                                                      150 *
+  0187 Wyin filter U (filter + CCD reponse)                             13 *
+  0188 Wyin filter B (filter + CCD reponse)                             24 *
+  0189 ESO VLT ISAAC J (ESO web pages)                                 169
+  0190 ESO VLT ISAAC H (ESO web pages)                                 167
+  0191 ESO VLT ISAAC Ks (ESO web pages)                                173
+  0192 ESO VLT ISAAC L (ESO web pages)                                 132
+  0193 ESO VLT ISAAC M (ESO web pages)                                 131
+  0194 Palomar 200" WIRC J                                              42
+  0195 Palomar 200" WIRC K                                              66
+  0196 Calar Alto 3.5m Omega2000 J                                     109 
+  0197 Calar Alto 3.5m OmegaPrime K                                     44
+  0198 Spitzer IRAC CH1 (3.6 micron)                                   391
+  0199 Spitzer IRAC CH2 (4.5 micron)                                   401
+  0200 Spitzer IRAC CH3 (5.8 micron)                                   311
+  0201 Spitzer IRAC CH4 (8.0 micron)                                   350
+  0202 Spitzer MIPS CH1 (24 micron)                                    128
+  0203 Subaru SuprimeCam U                                             217 *
+  0204 Subaru SuprimeCam B                                             200
+  0205 Subaru SuprimeCam V                                             200
+  0206 Subaru SuprimeCam r                                             200
+  0207 Subaru SuprimeCam i                                             200
+  0208 Subaru SuprimeCam z                                             200
+  0209 UH 2.2m QUIRC H+K (AKA HK')                                     108
+  0210 CFHT MegaCam i2 AKA y (new, after October 2007)                  38
+  0211 NOAO KPNO 4m FLAMINGOS J (J-2000toJuly2003)                      46 
+  0212 NOAO KPNO 4m FLAMINGOS H (H-2000toJuly2003)                      76
+  0213 NOAO KPNO 4m FLAMINGOS Ks (Ks-2000toJuly2003)                   699
+  0214 Spitzer MIPS CH2 (70 micron)                                    111
+  0215 Spitzer MIPS CH3 (160 micron)                                   400
+  0216 250 micron SPIRE/Herschel                                       426
+  0217 350 micron SPIRE/Herschel                                       431
+  0218 500 micron SPIRE/Herschel                                       399
+  0219 2MASS J                                                         109
+  0220 2MASS H                                                          57
+  0221 2MASS Ks                                                         76
+  0222 UKIRT WFCAM (UKIDSS) J                                          581
+  0223 UKIRT WFCAM (UKIDSS) H                                          581
+  0224 UKIRT WFCAM (UKIDSS) K                                          581
+  0225 INT WFC u                                                       401
+  0226 INT WFC g                                                       401
+  0227 INT WFC r                                                       500
+  0228 INT WFC i                                                       499
+  0229 INT WFC z                                                       101
+  0230 NOAO KPNO 4m MOSAIC1 U                                          751
+  0231 NOAO KPNO 4m MOSAIC1 g                                          411
+  0232 NOAO KPNO 4m MOSAIC1 r                                          391
+  0233 NOAO KPNO 4m MOSAIC1 i                                          441
+  0234 NOAO KPNO 4m MOSAIC1 z                                          801
+  0235 NOAO CTIO 4m MOSAIC2 u                                          888
+  0236 NOAO CTIO 4m MOSAIC2 g                                          888
+  0237 NOAO CTIO 4m MOSAIC2 r                                          888
+  0238 NOAO CTIO 4m MOSAIC2 i                                          888
+  0239 NOAO CTIO 4m MOSAIC2 z                                          888
+  0240 NOAO CTIO 4m MOSAIC2 U                                          787
+  0241 CFHT MegaCam u*                                                  61
+  0242 CFHT MegaCam g                                                   61
+  0243 CFHT MegaCam r                                                   55
+  0244 CFHT MegaCam i1 AKA i (old,before October 2007,for new see i2)   65
+  0245 CFHT MegaCam z                                                   63
+  0246 AKARI N60                                                       100
+  0247 AKARI WIDE-S                                                    100
+  0248 AKARI WIDE-L                                                    100
+  0249 AKARI N160                                                      100
+  0250 PACS 70  Instrument Simulator as of Herschel Launch              45
+  0251 PACS 100 Instrument Simulator as of Herschel Launch              52
+  0252 PACS 160 Instrument Simulator as of Herschel Launch              39
+  0253 NOAO KPNO 4m FLAMINGOS J from 2003 to present (MAN240B)         260
+  0254 NOAO KPNO 4m FLAMINGOS H from 2003 to present (MAN109A)         874
+  0255 NOAO KPNO 4m FLAMINGOS Ks from 2003 to present (MAN306A)       1012
+  0256 NOAO KPNO 4m FLAMINGOS K (2000toPresentDaytNOAO-OCLI)            50
+  0257 Subaru SuprimeCam Rc                                            200
+  0258 Subaru SuprimeCam Ic                                            200
+  0259 Subaru SuprimeCam g                                             200
+  0260 Spitzer IRS 16 micron (bluePUtrans)                             371
+  0261 Spitzer IRS 22 micron (redPUtrans)                              215
+  0262 ESO VLT VIMOS U (transmission is average of 4 quadrants)        506
+  0263 ESO VLT VIMOS B (transmission is average of 4 quadrants)        512
+  0264 ESO VLT VIMOS V (transmission is average of 4 quadrants)        701
+  0265 ESO VLT VIMOS R (transmission is average of 4 quadrants)        843
+  0266 ESO VLT VIMOS I (transmission is average of 4 quadrants)        843
+  0267 ESO VLT VIMOS z (transmission is average of 4 quadrants)        843
+  0268 NOAO KPNO 4m MOSAIC1 R                                         1201
+  0269 UKIRT WFCAM (UKIDSS) Z                                          581
+  0270 UKIRT WFCAM (UKIDSS) Y                                          581
+  0271 CFHT WIRCam J (cfh8101)                                        1077
+  0272 CFHT WIRCam H (cfh8201)                                         828
+  0273 CFHT WIRCam Ks (cfh8302)                                        910
+  0274 NOAO KPNO 4m MOSAIC1 Bw                                         901
+  0275 NOAO KPNO 4m MOSAIC1 B                                         1201
+  0276 NOAO KPNO 4m MOSAIC1 V                                         1301
+  0277 NOAO KPNO 4m MOSAIC1 I                                          351
+  0278 NOAO CTIO 4m MOSAIC2 B                                          888
+  0279 NOAO CTIO 4m MOSAIC2 V                                          888
+  0280 NOAO CTIO 4m MOSAIC2 R                                          887
+  0281 NOAO CTIO 4m MOSAIC2 I                                          888
+  0282 TIFKAM/ONIS J                                                   133
+  0283 TIFKAM/ONIS H                                                   108
+  0284 TIFKAM/ONIS K                                                   139
+  0285 90prime SDSS-u                                                  901
+  0286 90prime SDSS-z                                                  902
+  0287 90prime U                                                       146
+  0288 90prime B                                                       157
+  0289 90prime V                                                       102
+  0290 90prime R                                                        66
+  0291 90prime I                                                        99
+  0292 90prime_Washington_M                                            676
+  0293 NEWFIRM J                                                       601
+  0294 NEWFIRM H                                                      1021
+  0295 NEWFIRM Ks                                                     1041
+  0296 GALEX NUV                                                      1321
+  0297 GALEX FUV                                                       471  
+  0298 MMT Megacam u                                                   150
+  0299 MMT Megacam g                                                   369
+  0300 MMT Megacam r                                                   431
+  0301 MMT Megacam i                                                   498
+  0302 MMT Megacam z                                                   604
+  0303 Subaru MOIRCS Y                                                 616
+  0304 Subaru MOIRCS J                                                1201 
+  0305 Subaru MOIRCS H                                                 941
+  0306 Subaru MOIRCS Ks                                                569
+  0307 Subaru MOIRCS K                                                 987
+  0308 APEX SABOCA 350 micron                                          146
+  0309 APEX LABOCA 850 micron                                          116
+  0310 HST NIC3 F110W (J)                                              739
+  0311 HST NIC3 F160W (H)                                              672
+  0312 HST NIC3 F222M (K)                                              870
+  0313 HST ACS/WFC F435W (B)                                           469
+  0314 HST ACS/WFC F606W (V)                                           745
+  0315 HST ACS/WFC F814W (I)                                           763
+  0316 HST ACS/WFC F475W (g)                                           762
+  0317 HST ACS/WFC F625W (r)                                           471
+  0318 HST ACS/WFC F775W (i)                                           619
+  0319 HST ACS/WFC F850LP (z)                                          660 
+  0320 Subaru SuprimeCam IA427                                         423
+  0321 Subaru SuprimeCam IA445                                         483
+  0322 Subaru SuprimeCam IA464                                         421
+  0323 Subaru SuprimeCam IA484                                         501
+  0324 Subaru SuprimeCam IA505                                         501
+  0325 Subaru SuprimeCam IA527                                         532
+  0326 Subaru SuprimeCam IA550                                         301
+  0327 Subaru SuprimeCam IA574                                         611
+  0328 Subaru SuprimeCam IA598                                         799
+  0329 Subaru SuprimeCam IA624                                         668
+  0330 Subaru SuprimeCam IA651                                         360
+  0331 Subaru SuprimeCam IA679                                         760
+  0332 Subaru SuprimeCam IA709                                         643
+  0333 Subaru SuprimeCam IA738                                         638
+  0334 Subaru SuprimeCam IA767                                         323
+  0335 Subaru SuprimeCam IA797                                         392
+  0336 Subaru SuprimeCam IA827                                         572
+  0337 Subaru SuprimeCam IA856                                         141
+  0338 Subaru SuprimeCam IA907                                          74
+  0339 Subaru SuprimeCam NA656                                         344
+  0340 Subaru SuprimeCam NB711                                         651
+  0341 Subaru SuprimeCam NB816                                         520
+  0342 Subaru SuprimeCam NB921                                         338
+  0343 LBT-LBC blue Uspec                                              749
+  0344 LBT-LBC blue U                                                  150
+  0345 LBT-LBC blue B                                                  300
+  0346 LBT-LBC blue V                                                  600
+  0347 LBT-LBC blue g (#1)                                             748
+  0348 LBT-LBC blue r (#1)                                             988
+  0349 LBT-LBC red V                                                   730
+  0350 LBT-LBC red R                                                   899
+  0351 LBT-LBC red I                                                   747
+  0352 LBT-LBC red r                                                   699
+  0353 LBT-LBC red i                                                   893
+  0354 LBT-LBC red z                                                   800
+  0355 LBT-LBC red F972N20                                              33
+  0356 LBT-LBC red Y                                                   795
+  0357 ISO CAM LW2 (6.7/7 micron)                                       27
+  0358 ISO CAM LW10 (12 micron)                                         31
+  0359 ISO CAM LW3 (14.3/15 micron)                                     33
+  0360 ISO PHT C100-DETECTOR C90-FILTER (90/5 micron)                  300
+  0361 ISO PHT C200-DETECTOR C160-FILTER (170/5 micron)                300
+  0362 VISTA VIRCAM Z                                                  149
+  0363 VISTA VIRCAM Y                                                  338
+  0364 VISTA VIRCAM J                                                  452
+  0365 VISTA VIRCAM H                                                  607
+  0366 VISTA VIRCAM Ks                                                 548
+  0367 WISE W1mpro                                                     398
+  0368 WISE W2mpro                                                     548
+  0369 WISE W3mpro                                                    2559
+  0370 WISE W4mpro                                                    2559
+  0371 AKARI N3                                                       4687
+  0372 AKARI N4                                                       4687
+  0373 AKARI S7                                                       2076
+  0374 AKARI S11                                                      2076
+  0375 AKARI L15                                                      603
+  0376 AKARI L24                                                      678

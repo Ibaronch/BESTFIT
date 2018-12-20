@@ -1,0 +1,16 @@
+pro create_filter
+readcol,"FILTER_u_SDSS_c6022_CTIO_mosaic_II.txt",lambda,resp100,format='f,f'
+
+resp1=resp100/100.
+
+openw, fo1, "../u_SDSS_c6022_CTIO_mosaic_II", /get_lun
+m=0.
+while m lt n_elements(lambda) do begin
+ printf,fo1,m+1,lambda[m],resp1[m],format="(i8,1x,f10.1,1x,f12.6,1x)"
+m=m+1
+endwhile
+free_lun, fo1
+close, fo1
+
+stop
+end
