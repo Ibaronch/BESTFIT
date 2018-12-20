@@ -1,0 +1,106 @@
+######################################################################
+################### Configuration file for BESTFIT ###################
+###################    Version 1.1 march 2014      ###################
+#####################################################################
+#
+#
+#LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL
+#LLLLLLLLLLLLLLLLLLL INPUT AND PARAMETERS FILES: LLLLLLLLLLLLLLLLLLLLLL
+#LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL
+FILTERS_FILE  param_files/filters_list2 # Filter list file. The format of 
+                       # the colums in this file depends on the
+                       # FILTER\_CONVOL parameter: If it is set to
+                       # 'yes', only one column with the filter code
+                       #  is needed.  If FILTER\_CONVOL is set to 'no',
+                       # the first column will represent the 
+                       # characteristic wavelength of the filter and 
+                       # the second one the filter name)
+FILTERS_RESPONSES_FILE param_files/filters/FILTER-Ivano_130314.RES
+METAL_MODELS_FILE     param_files/Kur_metal_models #param_files/kur_modified_models # param_files/Kur_metal_models # Metallicity models list file
+CATALOG_NAME         manual_select_cat_srcs
+INPUT_UNITS         AB_MAG  # JY: Flux in Jansky [Jy]. You can also use these
+                        # units to fit any kind of curve and models in
+                        # any units 
+                        # AB_MAG: AB magnitudes
+#LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL
+#LLLLLLLLLLLLLLLLLLL KURUCZ 93 MODELS OPTIONS: LLLLLLLLLLLLLLLLLLLLLLLL
+#LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL
+KUR93              yes  # "yes" if those listed in METAL_MODELS_FILE 
+                        # are Kurucz93 models; "no" if the models are 
+                        # ascii files with two columns, like "wavelength" 
+                        # and "flux". This last one has to be expressed 
+                        # in units of Energy area-2 time-2 Hz-2
+GRAVITY_MIN        0.0  # log_g relative to solar (min=0.0, step=0.5)
+GRAVITY_MAX        5.0  # log_g relative to solar (max=5.0, step=0.5)
+T_MIN             3500. # Temperature (min=3500 Kelvin)
+T_MAX            7000. # Temperature (max=50000 Kelvin)
+#LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL
+#LLLLLLLLLLLLLLLLLLLLLL        EXTINCTION        LLLLLLLLLLLLLLLLLLLLLL
+#LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL
+EXTINCT            yes  # With 'yes', the extinction law (Allen 1976
+                        #  for the Milky Way) will be considered.
+AV_MIN             0.0  # Minimum extinction value
+AV_MAX             0.3  # Maximum extinction value
+AV_STEP            0.05  # Step between different values
+#LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL
+#LLLL COMPUTE EXPECTED FLUX IN A SELECTED FILTER (OR WAVELENGTH): LLLLL
+#LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL
+GET_FLUX            yes # If "yes", the output file contains a column
+                        # with the expected flux at at a certain 
+                        # wavelength or in a certain filter (specified 
+                        # in FILTER_GET_FLUX. The flux will be expressed
+                        # in the same units of the output seds (SED_TYPE)
+WAV_OR_FILTER    filter # If "wavelength", the flux is computed at the
+                        # wavelength specified in "FILTER_GET_FLUX". If
+                        # "filter", the flux is computed in the filter
+                        # (log number) specified in "FILTER_GET_FLUX".
+FILTER_GET_FLUX     377 # 235NO # 3642.28NO # Wavelength [Angstrom] or filter (ordered as 
+                        # in the filters.log specified in
+                        # FILTERS_RESPONSES_FILE) in which compute the
+                        # expected flux.
+#LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL
+#LLLLLLLLLLLLLLLLLLLLLLLLL FIT PARAMETERS LLLLLLLLLLLLLLLLLLLLLLLLLLLLL
+#LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL
+FILTER_CONVOL       yes # if "yes" (slowest option), fluxes will be 
+                        # convolved with the filter response. If "no"
+                        # (fastest option), the flux is computed at the
+                        # precise position of the wavelength that in this
+                        # case has to be written in the filters file. 
+REF_FILTER           -1 # Filter to which normalize the fluxes during the
+                        # fit (ordered as in the FILTERS_FILE). This
+                        # option can be used in the case the photometry 
+                        # in one particular filter is especially better
+                        # then in the other. If "-1" is set, all the 
+                        # filters are considered with the same weight
+#LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL
+#LLLLLLLLLLLLLLLLLLLLLLLLLLLLL OUTPUTS: LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL
+#LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL
+OUTPUT_PATH  outputs7/ # folder name in which to put SEDs and output files
+                         # Default is the directory in which BESTFIT is run
+OUT_BEST_FIT_SED_TXT yes # Best fit SED outputs (id.sed)
+OUT_BEST_FIT_SED_PS  yes # Best fit SED outputs (id.ps)
+OUTPUT_FILE1 out_sources7 # Output with informations on single sources
+OUTPUT_FILE2    out_info7 # Output with informations on the fit procedure
+SED_TYPE          JY  # NORM: Flux [ergs cm^-2 s^-1 Hz^-1] or Jy, 
+                        # normalized to the Flux in the referement filter
+                        # AB_MAG: Best fit SED in AB magnitudes (only if
+                        # the input catalog is in AB_MAG or Jy units)
+                        # JY: Flux in Jansky [Jy]
+#LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL
+#LLLLLLLLLLLLLLLLLLLLL GRAPHICAL PARAMETERS: LLLLLLLLLLLLLLLLLLLLLLLLLL
+#LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL
+VERBOSE             yes # If "yes", the name of the model is printed at 
+                        # screen, together with the corresponding chi2
+                        # and the best fit chi2
+VISUALIZE_FIT       yes # If "yes", the best fit is visualized at screen,
+                        # together with the available data points and
+                        # associated uncertainties
+RIGHT_EXPANSION      1. # enlarge plots on the right side
+LEFT_EXPANSION       1. # enlarge plots on the left side
+UP_EXPANSION         1. # enlarge plots on the upper part
+LOW_EXPANSION        1.5 # enlarge plots on the lower part
+PS_THICK             2.5 # Thickness of the output plots (only files.ps)
+PS_CHSIZE            1.2 # Characters Dimension on the output plots
+                        # (only files.ps)
+PS_XSIZE             1.5 # x size of the ps plot (only files.ps)
+PS_YSIZE             1.5 # y size of the ps plot (only files.ps)

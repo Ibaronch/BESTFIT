@@ -1,0 +1,20 @@
+/media/TrekStor/SEP_data_reduction/KURUCZ_stellar_spectra/star_spectra/k93models/km50     # metallicity (log_Z relative to solar) = -5.0
+/media/TrekStor/SEP_data_reduction/KURUCZ_stellar_spectra/star_spectra/k93models/km45     # metallicity (log_Z relative to solar) = -4.5
+/media/TrekStor/SEP_data_reduction/KURUCZ_stellar_spectra/star_spectra/k93models/km40     # metallicity (log_Z relative to solar) = -4.0
+/media/TrekStor/SEP_data_reduction/KURUCZ_stellar_spectra/star_spectra/k93models/km35     # metallicity (log_Z relative to solar) = -3.5
+/media/TrekStor/SEP_data_reduction/KURUCZ_stellar_spectra/star_spectra/k93models/km30     # metallicity (log_Z relative to solar) = -3.0
+/media/TrekStor/SEP_data_reduction/KURUCZ_stellar_spectra/star_spectra/k93models/km25     # metallicity (log_Z relative to solar) = -2.5
+/media/TrekStor/SEP_data_reduction/KURUCZ_stellar_spectra/star_spectra/k93models/km20     # metallicity (log_Z relative to solar) = -2.0
+/media/TrekStor/SEP_data_reduction/KURUCZ_stellar_spectra/star_spectra/k93models/km15     # metallicity (log_Z relative to solar) = -1.5
+/media/TrekStor/SEP_data_reduction/KURUCZ_stellar_spectra/star_spectra/k93models/km10     # metallicity (log_Z relative to solar) = -1.0
+/media/TrekStor/SEP_data_reduction/KURUCZ_stellar_spectra/star_spectra/k93models/km05     # metallicity (log_Z relative to solar) = -0.5
+/media/TrekStor/SEP_data_reduction/KURUCZ_stellar_spectra/star_spectra/k93models/km03     # metallicity (log_Z relative to solar) = -0.3
+/media/TrekStor/SEP_data_reduction/KURUCZ_stellar_spectra/star_spectra/k93models/km02     # metallicity (log_Z relative to solar) = -0.2
+/media/TrekStor/SEP_data_reduction/KURUCZ_stellar_spectra/star_spectra/k93models/km01     # metallicity (log_Z relative to solar) = -0.1
+/media/TrekStor/SEP_data_reduction/KURUCZ_stellar_spectra/star_spectra/k93models/kp00     # solar metallicity
+/media/TrekStor/SEP_data_reduction/KURUCZ_stellar_spectra/star_spectra/k93models/kp01     # metallicity (log_Z relative to solar) = +0.1
+/media/TrekStor/SEP_data_reduction/KURUCZ_stellar_spectra/star_spectra/k93models/kp02     # metallicity (log_Z relative to solar) = +0.2
+/media/TrekStor/SEP_data_reduction/KURUCZ_stellar_spectra/star_spectra/k93models/kp03     # metallicity (log_Z relative to solar) = +0.3
+/media/TrekStor/SEP_data_reduction/KURUCZ_stellar_spectra/star_spectra/k93models/kp05     # metallicity (log_Z relative to solar) = +0.5
+/media/TrekStor/SEP_data_reduction/KURUCZ_stellar_spectra/star_spectra/k93models/kp10     # metallicity (log_Z relative to solar) = +1.0#
+#/media/TrekStor/SEP_data_reduction/KURUCZ_stellar_spectra/star_spectra/k93models/standards     #standard stars

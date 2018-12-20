@@ -1,0 +1,10 @@
+4360.0  B_Harris_6002_CTIO  FROM: http://www.noao.edu/kpno/mosaic/filters/
+5370.0  V_Harris_c6026_CTIO FROM: http://www.noao.edu/kpno/mosaic/filters/
+6517.25 R_WFI_MPG
+12350.0 J_2MASS             FROM: http://svo.cab.inta-csic.es/theory/filters/
+16620.0 H_2MASS             FROM: http://svo.cab.inta-csic.es/theory/filters/
+21590.0 Ks_2MASS            FROM: http://svo.cab.inta-csic.es/theory/filters/
+32000.0 N3_AKARI            FROM handbook IRC AKARI (lambda_ref)
+35500.0 I1_IRAC_Spitzer     FROM handbook IRAC (lamnbda_eff)
+41000.0 N4_AKARI            FROM handbook IRC AKARI (lambda_ref)
+44930.0 I2_IRAC_Spitzer     FROM handbook IRAC (lamnbda_eff)
