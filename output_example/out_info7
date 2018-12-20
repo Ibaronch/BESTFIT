@@ -1,0 +1,51 @@
+##########################################################
+# This is the output file of BESTFIT - version  1. 11
+##########################################################
+DATE: Tue Mar 18 18:01:40 2014
+Photometric catalogue :
+manual_select_cat_srcs
+# Templates SEDs: 
+ 1 /media/TrekStor/SEP_data_reduction/KURUCZ_stellar_spectra/star_spectra/k93models/km50
+ 2 /media/TrekStor/SEP_data_reduction/KURUCZ_stellar_spectra/star_spectra/k93models/km45
+ 3 /media/TrekStor/SEP_data_reduction/KURUCZ_stellar_spectra/star_spectra/k93models/km40
+ 4 /media/TrekStor/SEP_data_reduction/KURUCZ_stellar_spectra/star_spectra/k93models/km35
+ 5 /media/TrekStor/SEP_data_reduction/KURUCZ_stellar_spectra/star_spectra/k93models/km30
+ 6 /media/TrekStor/SEP_data_reduction/KURUCZ_stellar_spectra/star_spectra/k93models/km25
+ 7 /media/TrekStor/SEP_data_reduction/KURUCZ_stellar_spectra/star_spectra/k93models/km20
+ 8 /media/TrekStor/SEP_data_reduction/KURUCZ_stellar_spectra/star_spectra/k93models/km15
+ 9 /media/TrekStor/SEP_data_reduction/KURUCZ_stellar_spectra/star_spectra/k93models/km10
+ 10 /media/TrekStor/SEP_data_reduction/KURUCZ_stellar_spectra/star_spectra/k93models/km05
+ 11 /media/TrekStor/SEP_data_reduction/KURUCZ_stellar_spectra/star_spectra/k93models/km03
+ 12 /media/TrekStor/SEP_data_reduction/KURUCZ_stellar_spectra/star_spectra/k93models/km02
+ 13 /media/TrekStor/SEP_data_reduction/KURUCZ_stellar_spectra/star_spectra/k93models/km01
+ 14 /media/TrekStor/SEP_data_reduction/KURUCZ_stellar_spectra/star_spectra/k93models/kp00
+ 15 /media/TrekStor/SEP_data_reduction/KURUCZ_stellar_spectra/star_spectra/k93models/kp01
+ 16 /media/TrekStor/SEP_data_reduction/KURUCZ_stellar_spectra/star_spectra/k93models/kp02
+ 17 /media/TrekStor/SEP_data_reduction/KURUCZ_stellar_spectra/star_spectra/k93models/kp03
+ 18 /media/TrekStor/SEP_data_reduction/KURUCZ_stellar_spectra/star_spectra/k93models/kp05
+ 19 /media/TrekStor/SEP_data_reduction/KURUCZ_stellar_spectra/star_spectra/k93models/kp10
+# Characteristics of filters: 
+# n   wl_eff
+ 278  4391.3643 
+ 279  5426.3340 
+ 159  6500.5854 
+ 219  12516.493 
+ 220  16522.791 
+ 221  21524.850 
+ 371  32886.023 
+ 198  35572.586 
+ 372  44688.328 
+ 199  45049.348 
+# No reference filter present
+# Filter in which the flux is computed
+# n   wl_eff
+377  3527.45
+# Gravity (log_g relative to solar) min:  0.00000
+# Gravity (log_g relative to solar) max:  5.00000
+# Number of gravity models (available, used):  11  11
+# T min:       3500.00 K
+# T max:       7000.00 K
+# Number of temperature models (available, used):  57  15
+# Minimum Av:  0.0000000
+# Maximum Av:  0.30000000
+# Av steps  :  0.050000000
