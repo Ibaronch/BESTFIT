@@ -1,5 +1,5 @@
 # BESTFIT
-SED fitting code for stellar templates
+IDL based SED fitting code for stellar templates
 V1.1
 Ivano Baronchelli 2018
 BESTFIT is an IDL based function developed to fit photometric data using a collection of
