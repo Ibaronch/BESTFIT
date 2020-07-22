@@ -3,7 +3,7 @@ IDL based SED fitting code for stellar templates
 V1.1
 Ivano Baronchelli 2018
 BESTFIT is an IDL based function developed to fit photometric data using a collection of
-template models of star spectra. The method used is based on the χ 2 minimization procedure.
+template models of star spectra. The method used is based on the χ 2 minimization technique.
 Chosing among a collection of models (internal or supplied by the users), BESTFIT computes
 the spectral model that better fits the input photometric data. BESTFIT also predicts the
 expected flux in a users-selected photometric filter (or at a given wavelength). This can be
