@@ -1,4 +1,8 @@
 # BESTFIT
+
+[![DOI](https://zenodo.org/badge/162588999.svg)](https://zenodo.org/badge/latestdoi/162588999)
+https://zenodo.org/badge/latestdoi/162588999
+
 IDL based SED fitting code for stellar templates
 V1.1
 Ivano Baronchelli 2018
